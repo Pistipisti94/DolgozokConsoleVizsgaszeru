@@ -23,10 +23,6 @@ namespace DolgozokConsole
             this.reszleg = reszleg;
             this.belepesev = belepesev;
             this.ber = ber;
-        }
-        public override string ToString()
-        {
-            return $"{nev} {neme} {reszleg} {belepesev} {ber}";
-        }
+        }        
     }
 }
